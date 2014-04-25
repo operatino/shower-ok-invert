@@ -1,0 +1,33 @@
+//TODO: move to separate repo
+
+//Layout
+.brand-bg {background-color: $c-dafault !important;} //Brand color
+
+//Text
+.thin {font-family: 'PF DIN TEXT PRO Light' !important;}
+
+.dark {color: #000 !important;}
+.light {color: #fff !important;}
+
+.lp {  //Low priority
+  color: $c-lp !important;
+
+  a  {color: $c-lp !important;}
+  }
+
+.brand {color: $c-dafault !important;} //Brand color
+
+.fz-l {font-size: 1.25em !important;} //Font size large
+
+.fz-s {font-size: .75em !important;} //Font size small
+
+.em {
+  width: 100%;
+  font-size: 50px;
+  margin-left: 120px;
+  line-height: 1.4;
+  }
+
+.slide .place.m.em {
+  top: 40%;
+  }

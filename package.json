@@ -1,0 +1,29 @@
+{
+  "name": "shower-ok-invert",
+  "version": "0.1.0",
+  "description": "Odnoklassniki inverted theme for Shower, HTML presentation engine (github.com/shower/shower)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/operatino/shower-ok-invert.git"
+  },
+  "keywords": [
+    "shower",
+    "theme"
+  ],
+  "author": {
+    "name": "Robert Haritonov"
+  },
+  "bugs": {
+    "url": "https://github.com/operatino/shower-ok-invert/issues"
+  },
+  "homepage": "https://github.com/operatino/shower-ok-invert",
+  "dependencies": {
+    "shower": "^1.0.5",
+    "load-grunt-tasks": "~0.4.0",
+    "time-grunt": "~0.3.1",
+    "grunt": "~0.4.4",
+    "grunt-contrib-sass": "~0.7.3",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "readmeFilename": "README.md"
+}

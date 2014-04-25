@@ -1,0 +1,38 @@
+/*!
+ * Odnoklassniki Shower theme github.com/operatino/OK.shower
+ * Robert Haritonov @operatino http://rhr.me
+ *
+ * Forked from Ribbon theme for Shower HTML presentation engine: github.com/shower/shower Copyright © 2010–2013 Vadim Makeev, pepelsbey.net
+ * Licensed under MIT license: github.com/shower/shower/wiki/MIT-License
+ */
+
+@import 'defaults';
+
+//overriding defaults
+// Layout
+$width:1024px; // Slide width, permanent in most cases
+$height:768px; // Slide height, 640px for 16/10, 768px for 4/3
+
+// Ratio
+@if $height == 640px {
+	$ratio:'16x10';
+}
+@if $height == 768px {
+	$ratio:'4x3';
+}
+
+
+@import 'fonts';
+@import 'reset';
+@import 'main';
+
+//overriding main
+body {
+    font-size: 30px;
+	}
+
+.slide h3 {
+  font-size: 38px;
+  }
+
+@import 'cosmetic';
